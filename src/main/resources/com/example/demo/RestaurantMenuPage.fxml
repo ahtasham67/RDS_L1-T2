@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.RestaurantMenuPageController">
+   <children>
+      <TableView fx:id="table" layoutX="50.0" layoutY="125.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" pickOnBounds="false" prefHeight="325.0" prefWidth="700.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="100.0">
+        <columns>
+          <TableColumn fx:id="titleColumn" minWidth="250.0" prefWidth="140.0" sortable="false" text="Food title" />
+          <TableColumn fx:id="categoryColumn" minWidth="250.0" prefWidth="85.0" text="Category" />
+            <TableColumn fx:id="priceColumn" prefWidth="200.0" sortable="false" text="Price" />
+        </columns>
+      </TableView>
+      <Label layoutX="325.0" layoutY="35.0" prefHeight="40.0" prefWidth="150.0" text="             MENU LIST" textAlignment="CENTER" AnchorPane.leftAnchor="325.0" AnchorPane.rightAnchor="325.0" AnchorPane.topAnchor="35.0">
+         <font>
+            <Font name="Bangla MN" size="25.0" />
+         </font></Label>
+      <Button layoutX="333.0" layoutY="461.0" mnemonicParsing="false" onAction="#backToHome" prefHeight="40.0" prefWidth="172.0" text="BACK TO MAIN" textAlignment="CENTER" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="333.0" AnchorPane.rightAnchor="295.0" AnchorPane.topAnchor="460.0" />
+   </children>
+</AnchorPane>

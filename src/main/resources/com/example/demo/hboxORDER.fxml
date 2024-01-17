@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="hBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="725.0" style="-fx-background-color: #B1D4E0;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HboxORDERcontroller">
+    <children>
+        <Label fx:id="siNo" alignment="CENTER" prefHeight="40.0" prefWidth="88.0" textFill="#05445e">
+            <font>
+                <Font name="SansSerif Regular" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="column1" alignment="CENTER" prefHeight="40.0" prefWidth="337.0" textFill="#05445e">
+            <font>
+                <Font name="SansSerif Regular" size="14.0" />
+            </font>
+        </Label>
+      <Label fx:id="column11" alignment="CENTER" prefHeight="40.0" prefWidth="155.0" textFill="#05445e">
+         <font>
+            <Font name="SansSerif Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="column111" alignment="CENTER" prefHeight="40.0" prefWidth="146.0" textFill="#05445e">
+         <font>
+            <Font name="SansSerif Regular" size="14.0" />
+         </font>
+      </Label>
+    </children>
+</HBox>

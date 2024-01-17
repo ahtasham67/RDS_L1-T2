@@ -1,0 +1,90 @@
+/* Set the background color for the entire application */
+.root {
+    -fx-background-color: #32a891;
+}
+.bodybg{
+-fx-background-image: url('/Users/ahtashamhaque/Desktop/Project/img/logInBackground.jpg');
+-fx-background-size: cover;
+}
+
+/* Style a button */
+/* Style a more visually appealing button */
+.button {
+    -fx-background-color: linear-gradient(#55a3e6, #3498db);
+    -fx-background-radius: 5;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 20px;
+    -fx-padding: 10px 20px;
+    -fx-effect:
+        dropshadow(3px 3px 2px rgba(0, 0, 0, 0.4)),
+        inner-shadow(thin-rect-glow, rgba(250, 200, 210, 0.4), 5, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
+/* Change button style on hover */
+.button:hover {
+    -fx-background-color: linear-gradient(#3498db, #55a3e6);
+}
+
+
+/* Style a label */
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+}
+
+/* Style a text field */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-pref-width: 200px;
+}
+
+/* Style a table view */
+.table-view {
+    -fx-control-inner-background: #ffffff;
+    -fx-table-cell-border-color: #dddddd;
+}
+
+/* Style table columns */
+.table-column {
+    -fx-alignment: CENTER;
+}
+.table-row-cell {
+    -fx-font-size: 17px; /* Adjust the font size as needed */
+}
+
+/* Style table header */
+.table-header {
+    -fx-background-color: #f2f2f2;
+}
+
+/* Style selected row in the table view */
+.table-row-cell:selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: #ffffff;
+}
+
+/* Style a progress bar */
+.progress-bar {
+    -fx-accent: #3498db;
+}
+
+/* Style a slider */
+.slider {
+    -fx-background-color: #3498db;
+}
+
+/* Style a check box */
+.check-box {
+    -fx-font-size: 14px;
+}
+
+/* Style a radio button */
+.radio-button {
+    -fx-font-size: 14px;
+}
+
+/* Style an AnchorPane */
+
+
+

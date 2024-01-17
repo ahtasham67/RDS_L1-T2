@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.UserShowCartController">
+    <children>
+        <ImageView fitHeight="625.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@search.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="errorMessageName" alignment="CENTER" layoutX="197.0" layoutY="130.0" prefHeight="56.0" prefWidth="372.0" textFill="#ff0000">
+            <font>
+                <Font name="SansSerif Bold" size="24.0" />
+            </font>
+        </Label>
+        <HBox fx:id="titleBar" layoutX="25.0" layoutY="60.0" prefHeight="32.0" prefWidth="746.0" style="-fx-background-color: #05445E;">
+            <children>
+                <Label fx:id="siNo" alignment="CENTER" prefHeight="35.0" prefWidth="91.0" text="No." textFill="WHITE">
+                    <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                    </font>
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                </Label>
+                <Label fx:id="foodname" alignment="CENTER" prefHeight="32.0" prefWidth="358.0" text="FOOD NAME" textFill="WHITE">
+                    <font>
+                        <Font name="SansSerif Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label fx:id="priceperunit" alignment="CENTER" layoutX="157.0" layoutY="10.0" prefHeight="32.0" prefWidth="154.0" text="Price per Unit" textFill="WHITE">
+                    <font>
+                        <Font name="SansSerif Bold" size="14.0" />
+                    </font>
+                </Label>
+            <Label fx:id="quantity" alignment="CENTER" prefHeight="32.0" prefWidth="154.0" text="Quantity" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="14.0" />
+               </font>
+            </Label>
+            </children>
+        </HBox>
+        <ScrollPane fx:id="scrollPaneName" layoutX="25.0" layoutY="92.0" prefHeight="343.0" prefWidth="746.0" style="-fx-background-color: #D4F1F4;">
+            <content>
+                <AnchorPane prefHeight="335.0" prefWidth="741.0" style="-fx-background-color: #D4F1F4;">
+                    <children>
+                        <VBox fx:id="vBox" prefHeight="343.0" prefWidth="746.0" />
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <Button layoutX="25.0" layoutY="446.0" mnemonicParsing="false" onAction="#backToHome" prefHeight="33.0" prefWidth="73.0" text="BACK">
+            <font>
+                <Font name="Bangla MN" size="14.0" />
+            </font>
+        </Button>
+        <Label layoutX="358.0" layoutY="14.0" prefHeight="44.0" prefWidth="125.0" text="YOUR CART" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Bangla MN" size="19.0" />
+            </font>
+        </Label>
+      <Label fx:id="showTotalCost" layoutX="561.0" layoutY="445.0" prefHeight="44.0" prefWidth="225.0" text="TOTAL:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bangla MN" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="324.0" layoutY="446.0" mnemonicParsing="false" onAction="#placeOrder" prefHeight="42.0" prefWidth="152.0" text="PLACE ORDER">
+         <font>
+            <Font name="Bangla MN" size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

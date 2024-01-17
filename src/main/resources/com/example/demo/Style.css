@@ -1,0 +1,48 @@
+.inbutton {
+    -fx-background-color: #3d5a80;
+    -fx-text-fill: #d4f1f4;
+}
+
+.morebutton {
+    -fx-background-color: #3d5a80;
+    -fx-text-fill: #d4f1f4;
+    -fx-background-radius: 20;
+}
+
+.morebutton:hover {
+    -fx-background-color: #293241;
+    -fx-text-fill: #ee6c4d;
+}
+
+.dashLabel {
+    -fx-background-color: #3d5a80;
+    -fx-text-fill: #d4f1f4;
+}
+
+.dashLabel:hover {
+    -fx-background-color: #293241;
+    -fx-text-fill: #ee6c4d;
+    -fx-font-weight: bold;
+    -fx-font-size: 24;
+}
+
+.inbutton:hover {
+    -fx-background-color: #293241;
+    -fx-text-fill: #e0fbfc;
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-border-color: #ee6c4d;
+    -fx-border-width: 0px 0px 5px 0px;
+}
+
+.sidebarItem {
+    -fx-background-color: #3d5a80;
+    -fx-text-fill: #d4f1f4;
+}
+
+/* .sidebarItem:hover {
+    -fx-background-color: hoverBackgroundColor;
+    -fx-text-fill: hoverTextColor;
+    -fx-border-color: WHITE;
+    -fx-border-width: 0px 0px 0px 5px;
+} */

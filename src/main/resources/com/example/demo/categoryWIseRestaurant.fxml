@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.CategoryWIseRestaurantController">
+<children>
+      <ImageView fitHeight="557.0" fitWidth="836.0" layoutX="-25.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@RestaurantMainMenu.jpg" />
+         </image>
+      </ImageView>
+    <TableView fx:id="table" layoutX="50.0" layoutY="30.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" pickOnBounds="false" prefHeight="454.0" prefWidth="705.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="30.0">
+        <columns>
+            <TableColumn fx:id="titleColumn" minWidth="250.0" prefWidth="704.0" sortable="false" text="Different Category Wise List of Restaurants" />
+        </columns>
+    </TableView>
+    <Button layoutX="297.0" layoutY="491.0" mnemonicParsing="false" onAction="#backToHome" prefHeight="49.0" prefWidth="211.0" text="BACK TO MAIN" textAlignment="CENTER" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="297.0" AnchorPane.rightAnchor="292.0" AnchorPane.topAnchor="491.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+</children>
+</AnchorPane>
